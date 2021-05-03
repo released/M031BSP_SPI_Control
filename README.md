@@ -3,7 +3,7 @@
 
 update @ 2021/05/03
 
-1. initial SPI , PA0 : SPI0_MOSI , PA1 : SPI0_MISO , PA2 : SPI0_CLK , PA3 : SPI0_SS
+1. initial SPI (800K) , PA0 : SPI0_MOSI , PA1 : SPI0_MISO , PA2 : SPI0_CLK , PA3 : SPI0_SS
 
 2. base on M031 EVM , with define and measure LA waveform as below 
 
@@ -13,7 +13,7 @@ update @ 2021/05/03
 
 - USE_WIDTH_32_TRANSFER
 
-3. below is wavefom capture , 
+3. below is wavefom capture ( 0 : CS , 1 : CLK , 2 : MISO , 3 : MOSI)
 
 with enable define : USE_WIDTH_8_TRANSFER
 
